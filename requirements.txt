@@ -1,5 +1,5 @@
 flask
-openai
+openai==0.27.2
 numpy
 scikit-learn
 python-dotenv
