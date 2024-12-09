@@ -16,6 +16,7 @@ h1{
 }
 .request{
     display: flex;
+    margin-top: 1rem;
 }
 .response-container{
     height: 75vh !important;
