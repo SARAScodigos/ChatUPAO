@@ -81,7 +81,7 @@ def preguntar():
             {"role": "system", "content": "Eres un asistente experto en guías de laboratorio."},
             {"role": "user", "content": f"Contexto: {contexto}\nPregunta: {pregunta}"}
         ],
-        max_tokens=200
+        max_tokens=250
     )
 
     # Obtener solo el contenido de la respuesta
