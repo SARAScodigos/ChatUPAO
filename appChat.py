@@ -78,7 +78,7 @@ def preguntar():
     respuesta_completa = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "Eres un asistente experto en guías de laboratorio. Y responde de manera coherente a los saludos"},
+            {"role": "system", "content": "Eres un asistente experto en guías de laboratorio y responde coherentemente a las peticiones sobre las guias de laboratorio"},
             {"role": "user", "content": f"Contexto: {contexto}\nPregunta: {pregunta}"}
         ],
         max_tokens=250
